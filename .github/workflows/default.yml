@@ -1,0 +1,17 @@
+name: default
+
+on:
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
+
+jobs:
+  setup-demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 
+        run: |
+          echo "Hello World"
+          echo "demo Github Actions"
